@@ -1,0 +1,331 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-family: "Poppins", serif;
+}
+
+h1,
+.h1 {
+  font-size: 30px;
+}
+@media only screen and (min-width: 768px) {
+  h1,
+  .h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  h1,
+  .h1 {
+    font-size: 41px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  h1,
+  .h1 {
+    font-size: 48px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  h1,
+  .h1 {
+    font-size: 72px;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 24px;
+}
+@media only screen and (min-width: 576px) {
+  h2,
+  .h2 {
+    font-size: 28px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  h2,
+  .h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  h2,
+  .h2 {
+    font-size: 48px;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 22px;
+}
+@media only screen and (min-width: 768px) {
+  h3,
+  .h3 {
+    font-size: 27px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  h3,
+  .h3 {
+    font-size: 32px;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 20px;
+}
+@media only screen and (min-width: 768px) {
+  h4,
+  .h4 {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  h4,
+  .h4 {
+    font-size: 24px;
+  }
+}
+
+h5,
+.h5 {
+  font-size: 18px;
+}
+@media only screen and (min-width: 992px) {
+  h5,
+  .h5 {
+    font-size: 20px;
+  }
+}
+
+h6,
+.h6 {
+  font-size: 16px;
+}
+@media only screen and (min-width: 992px) {
+  h6,
+  .h6 {
+    font-size: 18px;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=url],
+input[type=search],
+input[type=submit],
+[type=number],
+[type=file],
+textarea,
+select {
+  width: 100%;
+  height: 42px;
+  background-color: #fff;
+  font-size: 14px;
+  color: rgba(0, 0, 27, 0.6);
+  border-radius: 0px;
+  border: 1px solid rgba(0, 0, 27, 0.6);
+  padding: 15px 20px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 1200px) {
+  input[type=text],
+  input[type=email],
+  input[type=password],
+  input[type=tel],
+  input[type=url],
+  input[type=search],
+  input[type=submit],
+  [type=number],
+  [type=file],
+  textarea,
+  select {
+    font-size: 15px;
+  }
+}
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=tel]:focus,
+input[type=url]:focus,
+input[type=search]:focus,
+input[type=submit]:focus,
+[type=number]:focus,
+[type=file]:focus,
+textarea:focus,
+select:focus {
+  outline: 0;
+}
+input[type=text]::placeholder,
+input[type=email]::placeholder,
+input[type=password]::placeholder,
+input[type=tel]::placeholder,
+input[type=url]::placeholder,
+input[type=search]::placeholder,
+input[type=submit]::placeholder,
+[type=number]::placeholder,
+[type=file]::placeholder,
+textarea::placeholder,
+select::placeholder {
+  font-size: 14px;
+  color: rgba(0, 0, 27, 0.6);
+}
+
+textarea {
+  min-height: 120px;
+}
+
+input[type=submit],
+input[type=button],
+button,
+.button {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid #000;
+  background-color: unset;
+  transition: 0.4s all;
+  padding: 5px 8px;
+  transition: 0.3s;
+}
+
+p,
+ul,
+ol,
+table,
+address {
+  margin-bottom: 25px;
+}
+p:last-child,
+ul:last-child,
+ol:last-child,
+table:last-child,
+address:last-child {
+  margin-bottom: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.slick-dots {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+@media only screen and (min-width: 992px) {
+  .slick-dots {
+    margin-top: 30px;
+  }
+}
+.slick-dots li {
+  padding: 0px 5px;
+}
+.slick-dots button {
+  position: relative;
+  font-size: 0;
+  border: 0;
+  background-color: unset;
+}
+.slick-dots button::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.slick-dots .slick-active button {
+  position: relative;
+}
+.slick-dots .slick-active button::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.slick-dots .slick-active button::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.slick-arrow {
+  background-color: unset;
+  padding: 0;
+  font-size: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000;
+}
+.slick-arrow::before {
+  font-weight: 900;
+  font-family: "Font Awesome 6 Free";
+  font-size: 24px;
+}
+
+.slick-prev {
+  left: 0;
+  z-index: 1;
+}
+.slick-prev::before {
+  content: "\f104";
+}
+
+.slick-next {
+  right: 0;
+}
+.slick-next::before {
+  content: "\f105";
+}
+
+@media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 1330px;
+  }
+}/*# sourceMappingURL=style.css.map */
